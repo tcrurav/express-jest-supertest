@@ -46,7 +46,7 @@ cd express-jest-supertest/backend
 npm start
 ```
 
-You can use the POSTMAN link to create a user with the API: https://documenter.getpostman.com/view/3446841/2sAYQWKDda
+You can use the POSTMAN link to create a user with the API: https://documenter.getpostman.com/view/3446841/2sAYQanrW4
 
 Enjoy!!!
 
