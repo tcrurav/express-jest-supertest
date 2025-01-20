@@ -50,6 +50,14 @@ You can use the POSTMAN link to create a user with the API: https://documenter.g
 
 Enjoy!!!
 
+## Test the backend
+
+To run the tests just run the following commands:
+
+````
+cd backend
+npm test
+````
 
 ## Built With
 
@@ -68,3 +76,4 @@ Enjoy!!!
 * https://levelup.gitconnected.com/building-an-express-api-with-sequelize-cli-and-unit-testing-882c6875ed59. Building an Express API with Sequelize CLI and Unit Testing!
 * https://gist.github.com/PurpleBooth/109311bb0361f32d87a2. A very complete template for README.md files.
 * https://www.theserverside.com/video/Follow-these-git-commit-message-guidelines. Guidelines to write properly git commit messages.
+* https://gist.github.com/glennposadas/c20ed7f462ce4aec3fe2efbe97cc87cb. Migrations with sequelize when you already have your models.
