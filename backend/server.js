@@ -27,9 +27,9 @@ const db = require("./models");
 // db.sequelize.sync(); 
 
 // Development only. Drops and re-sync db everytime the server starts.
-db.sequelize.sync({ force: true }).then(() => {
-  console.log("Drop and re-sync db.");
-});
+// db.sequelize.sync({ force: true }).then(() => {
+//   console.log("Drop and re-sync db.");
+// });
 
 //middleware that checks if JWT token exists and verifies it if it does exist.
 //In all future routes, this helps to know if the request is authenticated or not.
@@ -69,11 +69,8 @@ app.use(function (req, res, next) {
 require("./routes/user.routes")(app);
 require("./routes/motorbike.routes")(app);
 
-// Default route (404 page)
-app.use((req, res) => {
-  return res.redirect("/motorbikes");
-});
-
 app.listen(port, () => {
   console.log('Server started on: ' + port);
 });
+
+module.exports = app;
